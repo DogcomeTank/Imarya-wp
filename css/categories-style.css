@@ -1,0 +1,168 @@
+.category-right-panel h4, h6 {
+  color: white;
+}
+
+#c-clearance p {
+  margin-top: 20px;
+}
+
+.top-cat-section {
+  font-size: 28px;
+  color: #3394c3;
+  margin-top: 10px;
+}
+
+.baby-collection-clip {
+  background-color: #3394c3;
+}
+
+.baby-collection-clip > div:first-of-type {
+  background-color: #ffaaa5;
+  border-bottom-left-radius: 100px 50px;
+}
+
+.baby-cloth-section-clip {
+  background-color: #ffaaa5;
+}
+
+.baby-cloth-section-clip > div:first-of-type {
+  background-color: #3394c3;
+  border-bottom-left-radius: 100px 50px;
+}
+
+.baby-section-clip > div:first-of-type {
+  background-color: #ffaaa5;
+  border-bottom-left-radius: 100px 50px;
+}
+
+.toddler-collection-clip {
+  background-color: #3394c3;
+}
+
+.toddler-collection-clip > div:first-of-type {
+  background-color: #ffaaa5;
+  border-bottom-left-radius: 100px 50px;
+}
+
+.toddler-boy-clip {
+  background-color: #ffaaa5;
+}
+
+.toddler-boy-clip > div:first-of-type {
+  background-color: #3394c3;
+  border-bottom-left-radius: 100px 50px;
+}
+
+.toddler-girl-clip > div:first-of-type {
+  background-color: #ffaaa5;
+  border-bottom-left-radius: 100px 50px;
+}
+
+.kid-collection-clip {
+  background-color: #3394c3;
+}
+
+.kid-collection-clip > div:first-of-type {
+  background-color: #ffaaa5;
+  border-bottom-left-radius: 100px 50px;
+}
+
+.kid-boy-clip {
+  background-color: #ffaaa5;
+}
+
+.kid-boy-clip > div:first-of-type {
+  background-color: #3394c3;
+  border-bottom-left-radius: 100px 50px;
+}
+
+.kid-girl-clip > div:first-of-type {
+  background-color: #ffaaa5;
+  border-bottom-left-radius: 100px 50px;
+}
+
+.category-right-panel img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.vc_column-inner {
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  max-width: 900px;
+  margin: auto;
+}
+
+.sidebar-color {
+  background-color: #3394c3;
+}
+
+.sidebar-btn-active {
+  background-color: #13dac9;
+  border-radius: 5px;
+}
+
+.w3-sidebar {
+  height: 600px;
+  color: #364f6b !important;
+  height: 300px;
+}
+
+.w3-button:hover {
+  background-color: #13dac9 !important;
+  color: #f8f3d4 !important;
+}
+
+.tablink {
+  color: white;
+}
+
+.category {
+  padding: 8px !important;
+  border-radius: 10px !important;
+}
+
+.description-text {
+  color: #3394c3;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-size: 10px;
+}
+
+.sl-padding-t-b {
+  padding-top: 20px;
+  padding-bottom: 38px;
+}
+
+#c-clearance .w3-card {
+  background-color: white;
+}
+
+h4 {
+  margin-top: 0px !important;
+}
+
+.category-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.category-ul li {
+  width: 33.33%;
+  float: left;
+}
+
+.category-ul li a {
+  display: block;
+  text-align: center;
+  padding: 3px;
+}
+/*# sourceMappingURL=categories-style.css.map */
