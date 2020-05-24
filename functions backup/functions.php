@@ -94,24 +94,6 @@ function change_wp_email_sender_address() {
 add_filter('wp_mail_from', 'change_wp_email_sender_address');
 
 
-// Aelia Currency switcher plugins
-/**
- * Uses a custom geolocation function to detect customer's location.
- * 
- * @param string country_code The country code passed by previous filters (if any).
- * @return string A country code, or an empty string if a country code was not passed
- * by WP Engine.
- */
-add_filter('wc_aelia_ip2location_before_get_country_code', function($country_code) {
-  // Return the country code detected by WP Engine, if it was set
-  if(!empty($_SERVER['HTTP_GEOIP_COUNTRY_CODE'])) {
-    $country_code = $_SERVER['HTTP_GEOIP_COUNTRY_CODE'];
-  }
-  return $country_code;
-}, 10, 1);
-
-// END Aelia Currency switcher plugins
-
 // Use both redeem points and Coupon - Yith Points and Rewards
 if ( ! function_exists( 'yith_ywpar_coupon_fix' ) && defined( 'YITH_YWPAR_PREMIUM' ) ) {
     add_filter( 'woocommerce_apply_with_individual_use_coupon', 'yith_ywpar_coupon_fix', 10, 2 );
