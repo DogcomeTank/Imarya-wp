@@ -26,16 +26,21 @@ $description-text-color: #3394c3;
   border-bottom-left-radius: 100px 50px;
 }
 
-.baby-cloth-section-clip {
+.baby-boy-section-clip {
   background-color: $color-first;
 }
 
-.baby-cloth-section-clip>div:first-of-type {
+.baby-boy-section-clip>div:first-of-type {
   background-color: $color-second;
   border-bottom-left-radius: 100px 50px;
 }
 
-.baby-section-clip>div:first-of-type {
+// .baby-cloth-section-clip>div:first-of-type {
+//   background-color: $color-second;
+//   border-bottom-left-radius: 100px 50px;
+// }
+
+.baby-girl-section-clip>div:first-of-type {
   background-color: $color-first;
   border-bottom-left-radius: 100px 50px;
 }

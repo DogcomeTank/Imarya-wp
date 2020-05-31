@@ -21,16 +21,16 @@
   border-bottom-left-radius: 100px 50px;
 }
 
-.baby-cloth-section-clip {
+.baby-boy-section-clip {
   background-color: #ffaaa5;
 }
 
-.baby-cloth-section-clip > div:first-of-type {
+.baby-boy-section-clip > div:first-of-type {
   background-color: #3394c3;
   border-bottom-left-radius: 100px 50px;
 }
 
-.baby-section-clip > div:first-of-type {
+.baby-girl-section-clip > div:first-of-type {
   background-color: #ffaaa5;
   border-bottom-left-radius: 100px 50px;
 }
