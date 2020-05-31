@@ -35,11 +35,6 @@ $description-text-color: #3394c3;
   border-bottom-left-radius: 100px 50px;
 }
 
-// .baby-cloth-section-clip>div:first-of-type {
-//   background-color: $color-second;
-//   border-bottom-left-radius: 100px 50px;
-// }
-
 .baby-girl-section-clip>div:first-of-type {
   background-color: $color-first;
   border-bottom-left-radius: 100px 50px;
@@ -174,6 +169,10 @@ a {
   display: block;
   text-align: center;
   padding: 3px;
+}
+
+.iphone-line-fix{
+  margin-bottom: -1px;
 }
 
 /*# sourceMappingURL=style.css.map */

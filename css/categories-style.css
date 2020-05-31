@@ -165,4 +165,8 @@ a {
   text-align: center;
   padding: 3px;
 }
+
+.iphone-line-fix {
+  margin-bottom: -1px;
+}
 /*# sourceMappingURL=categories-style.css.map */
